@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PacMan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js/pacmanapp.js"></script>
+</head>
+<body ng-app="pacmanApp" ng-controller="pacmanCtrl">
+    <h1>PacMan</h1>
+    <p>PacMan's Position: {{pacman.x}},{{pacman.y}}</p>
+    <p>PacMan's Direction: {{pacman.direction}}</p>
+    <a href="" ng-click="place()">Place</a>
+    <a href="" ng-click="move()">Move</a>
+    <a href="" ng-click="left()">Left</a>
+    <a href="" ng-click="right()">Right</a>
+    <a href="" ng-click="report()">Report</a>
+</body>
+</html>
